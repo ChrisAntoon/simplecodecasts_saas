@@ -13,6 +13,10 @@ group :production do
     gem 'rails_12factor'
 end
 
+# Use devise for user auth
+gem 'devise', '3.5.6'
+# Use stripe or handling payments
+gem 'stripe', '1.36.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 gem 'bootstrap-sass', '3.3.1'
@@ -36,10 +40,7 @@ gem 'sdoc', '0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-# Use devise for user auth
-gem 'devise', '3.5.6'
-# Use stripe or handling payments
-gem 'stripe', '1.36.0'
+
 # Use igaro to hide secret keys
 gem 'figaro', '1.1.1'
 
