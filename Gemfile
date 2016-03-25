@@ -43,6 +43,8 @@ gem 'spring',        group: :development
 
 # Use igaro to hide secret keys
 gem 'figaro', '1.1.1'
+# Use paperclip for image uploads
+gem 'paperclip', '4.3.6'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
